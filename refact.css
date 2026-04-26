@@ -1,4 +1,4 @@
-s
+#refact.css
 
 
 
@@ -13,3 +13,10 @@ s
     box-sizing: border-box;
 
         }
+.container {
+  display: flex;
+  gap: 10px;
+  gap: 10px 20px; /* row-gap column gap */
+  row-gap: 10px;
+  column-gap: 20px;
+}
